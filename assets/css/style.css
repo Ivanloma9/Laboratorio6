@@ -6,86 +6,95 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: whitesmoke;
+  background-color: rgb(56, 163, 165);
   padding: 0;
   margin: 0;
 }
 
-/* Contenedor global para centrar el contenido */
 .container {
   width: 960px;
-  margin: 0 auto; /* Asegura que todo el contenido esté centrado */
+  margin: 0 auto; 
   padding: 20px 0;
 }
 
-/* Header */
 header {
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(34, 87, 122);
   padding: 20px;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
+  color: white;
+  margin-bottom: 0px;
 }
 
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-}
-
-/* Navbar */
-.navbar {
-  background-color: cadetblue;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  justify-content: center; /* Centra los elementos horizontalmente */
-  padding: 0;
+  justify-content: center; 
+  padding: 10px;
 }
 
 .navbar ul li {
-  margin: 0 10px; /* Espacio entre los elementos */
+  margin: 0 10px; 
 }
 
 .navbar ul li a {
-  color: black;
+  color: white;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-/* Post */
 .post {
   background-color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para resaltar los posts */
-}
+  padding: 10px;
+ }
 
 .post-header {
-  margin-bottom: 10px;
+  margin: 10px;
   text-align: center;
+}
+
+.post-header img{
+  margin: 10px;
+  border:2px solid rgb(34, 87, 122) ;
+  box-shadow: 2px rgb(56, 163, 165);
 }
 
 .post-body {
+  text-align: center;
+}
+
+.post-body p{
+  margin: 20px auto; 
+  padding: 10px;              
+  border-radius: 5px;          
+}
+
+footer {
+  background-color: rgb(34, 87, 122);;
+  padding: 20px;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+h4{
+  margin: 10px;
+}
+table {
+  width: 80%;
+  max-width: 910px;
+  margin: 10px auto; 
+  border-collapse: collapse;
+
+}
+table tr {
   text-align: justify;
 }
 
-/* Footer */
-footer {
-  background-color: #ffa726;
-  padding: 20px;
-  border-top: 2px solid #fb8c00;
-  text-align: center;
-  margin-top: 20px;
-}
 
-table {
-  width: 80%;
-  margin: 20px auto; 
-  border-collapse: collapse;
-  
-}
